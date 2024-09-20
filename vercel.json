@@ -7,15 +7,23 @@
     "routes": [
         {
             "src": "/gambar/(.*)",
-            "dest": "/public/assets/"
+            "dest": "/public/assets/gambar"
         },
         {
             "src": "/icon/(.*)",
-            "dest": "/public/assets/"
+            "dest": "/public/assets/icon"
         },
         {
             "src": "/video/(.*)",
-            "dest": "/public/assets/"
+            "dest": "/public/assets/video"
+        },
+        {
+            "src": "/css/(.*)",
+            "dest": "/public/css"
+        },
+        {
+            "src": "/js/(.*)",
+            "dest": "/public/js"
         },
         { "src": "/build/(.*)", "dest": "/public/build/" },
         { "src": "/(.*)", "dest": "/api/index.php" }
