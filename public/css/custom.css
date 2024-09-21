@@ -2,3 +2,11 @@
 .carousel {
     position: relative;
 }
+
+@media (max-width: 640px) {
+    /* Adjust the breakpoint as needed */
+
+    iframe {
+        height: 205px !important; /* Set height for small screens */
+    }
+}
