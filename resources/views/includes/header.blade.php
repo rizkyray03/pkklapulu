@@ -2,7 +2,7 @@
 <div class="flex py-4 px-5 items-center bg-info text-gray-100 top-0 z-10">
     <div class="flex-1">
         <div class="flex items-center gap-2">
-            <span class="w-12 h-12"><img src="assets/gambar/logo-kendari.png" alt="Logo"></span>
+            <span class="w-12 h-12"><img src="{{ asset('assets/gambar/logo-kendari.webp') }}" alt="Logo"></span>
             <div class="text-xl font-bold  flex flex-col">
                 <span>TP.PKK</span>
                 <span>KELURAHAN LAPULU</span>
@@ -88,13 +88,13 @@
             <details onclick="toggleDetails(event)">
                 <summary class="block py-2 px-4 font-bold hover:text-yellow-200 hover:bg-blue-600">Profile</summary>
                 <ul class="bg-gray-100 text-gray-900 py-2 px-4 rounded-none">
-                    <li><a class="block py-1 hover:bg-blue-200">Sejarah PKK</a></li>
-                    <li><a class="block py-1 hover:bg-blue-200">10 Program Pokok PKK</a></li>
-                    <li><a class="block py-1 hover:bg-blue-200">Arti dan Logo PKK</a></li>
-                    <li><a class="block py-1 hover:bg-blue-200">Visi & Misi</a></li>
-                    <li><a class="block py-1 hover:bg-blue-200">Struktur Organisasi</a></li>
-                    <li><a class="block py-1 hover:bg-blue-200">Profil Pj.Pembina PKK</a></li>
-                    <li><a class="block py-1 hover:bg-blue-200">Mars PKK</a></li>
+                    <li class="p-1 hover:bg-gray-300"><a class="block">Sejarah PKK</a></li>
+                    <li class="p-1 hover:bg-gray-300"><a class="block">10 Program Pokok PKK</a></li>
+                    <li class="p-1 hover:bg-gray-300"><a class="block">Arti dan Logo PKK</a></li>
+                    <li class="p-1 hover:bg-gray-300"><a class="block">Visi & Misi</a></li>
+                    <li class="p-1 hover:bg-gray-300"><a class="block">Struktur Organisasi</a></li>
+                    <li class="p-1 hover:bg-gray-300"><a class="block">Profil Pj.Pembina PKK</a></li>
+                    <li class="p-1 hover:bg-gray-300"><a class="block">Mars PKK</a></li>
                 </ul>
             </details>
         </li>
@@ -103,11 +103,11 @@
                 <summary class="block py-2 px-4 font-bold hover:text-yellow-200 hover:bg-blue-600">POKJA & Sekretariat
                 </summary>
                 <ul class="bg-gray-100 text-gray-900 py-2 px-4 rounded-none">
-                    <li><a class="block py-1 hover:bg-blue-200">Sekretariat</a></li>
-                    <li><a class="block py-1 hover:bg-blue-200">Pokja I</a></li>
-                    <li><a class="block py-1 hover:bg-blue-200">Pokja II</a></li>
-                    <li><a class="block py-1 hover:bg-blue-200">Pokja III</a></li>
-                    <li><a class="block py-1 hover:bg-blue-200">Pokja IV</a></li>
+                    <li class="p-1 hover:bg-gray-300"><a class="block">Sekretariat</a></li>
+                    <li class="p-1 hover:bg-gray-300"><a class="block">Pokja I</a></li>
+                    <li class="p-1 hover:bg-gray-300"><a class="block">Pokja II</a></li>
+                    <li class="p-1 hover:bg-gray-300"><a class="block">Pokja III</a></li>
+                    <li class="p-1 hover:bg-gray-300"><a class="block">Pokja IV</a></li>
                 </ul>
             </details>
         </li>
@@ -115,10 +115,10 @@
             <details onclick="toggleDetails(event)">
                 <summary class="block py-2 px-4 font-bold hover:text-yellow-200 hover:bg-blue-600">Informasi</summary>
                 <ul class="bg-gray-100 text-gray-900 py-2 px-4 rounded-none">
-                    <li><a class="block py-1 hover:bg-blue-200">Agenda Kegiatan</a></li>
-                    <li><a class="block py-1 hover:bg-blue-200">Informasi Terbaru</a></li>
-                    <li><a class="block py-1 hover:bg-blue-200">Galeri</a></li>
-                    <li><a class="block py-1 hover:bg-blue-200">Kontak</a></li>
+                    <li class="p-1 hover:bg-gray-300"><a class="block">Agenda Kegiatan</a></li>
+                    <li class="p-1 hover:bg-gray-300"><a class="block">Informasi Terbaru</a></li>
+                    <li class="p-1 hover:bg-gray-300"><a class="block">Galeri</a></li>
+                    <li class="p-1 hover:bg-gray-300"><a class="block">Kontak</a></li>
                 </ul>
             </details>
         </li>
@@ -126,8 +126,8 @@
             <details onclick="toggleDetails(event)">
                 <summary class="block py-2 px-4 font-bold hover:text-yellow-200 hover:bg-blue-600">Daerah</summary>
                 <ul class="bg-gray-100 text-gray-900 py-2 px-4 rounded-none">
-                    <li><a class="block py-1 hover:bg-blue-200">Link 1</a></li>
-                    <li><a class="block py-1 hover:bg-blue-200">Link 2</a></li>
+                    <li class="p-1 hover:bg-gray-300"><a class="block">Link 1</a></li>
+                    <li class="p-1 hover:bg-gray-300"><a class="block">Link 2</a></li>
                 </ul>
             </details>
         </li>
@@ -135,13 +135,14 @@
             <details onclick="toggleDetails(event)">
                 <summary class="block py-2 px-4 font-bold hover:text-yellow-200 hover:bg-blue-600">Data</summary>
                 <ul class="bg-gray-100 text-gray-900 py-2 px-4 rounded-none">
-                    <li><a class="block py-1 hover:bg-blue-200">Link 1</a></li>
-                    <li><a class="block py-1 hover:bg-blue-200">Link 2</a></li>
+                    <li class="p-1 hover:bg-gray-300"><a class="block">Link 1</a></li>
+                    <li class="p-1 hover:bg-gray-300"><a class="block">Link 2</a></li>
                 </ul>
             </details>
         </li>
     </ul>
 </div>
+
 
 
 {{-- <div id="mobile-menu" class="hidden lg:hidden absolute bg-blue-500 z-50 w-full">

@@ -22,7 +22,7 @@
     </div>
 
     <div class="w-full flex justify-center items-center col-span-4 order-1 lg:order-2">
-        <img src="assets/gambar/person.png" alt="Person" width="200" height="200">
+        <img src="assets/gambar/person.webp" alt="Person" width="200" height="200">
     </div>
 
 
