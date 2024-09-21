@@ -6,20 +6,16 @@
     },
     "routes": [
         {
-            "src": "/gambar/(.*)",
-            "dest": "/public/assets/gambar"
-        },
-        {
-            "src": "/icon/(.*)",
-            "dest": "/public/assets/icon"
+            "src": "/assets/(.*)",
+            "dest": "/public/assets/"
         },
         {
             "src": "/css/(.*)",
-            "dest": "/public/css"
+            "dest": "/public/css/"
         },
         {
             "src": "/js/(.*)",
-            "dest": "/public/js"
+            "dest": "/public/js/"
         },
         {
             "src": "/build/(.*)",
